@@ -1,0 +1,25 @@
+{
+    "content_scripts": [], 
+    "description": "Centralized hub for receiving notifications from Orion Advisor Services and it's integration partners",
+    "creator": "Orion Advisor Services",
+    "background_scripts": [
+        "lib/js/firebase.js",
+        "main.js"
+    ], 
+    "homepage_url": "http://orionadvisor.com/",
+    "version": "0.9.0", 
+    "browser_button": {
+        "icon": "icons/button-gray.png",
+        "tooltipText": "Circuit",
+        "popup": {
+            "url": "popup.html",
+            "width": 320,
+            "height": 450
+        }
+    }, 
+    "name": "OAS Circuit",
+    "permissions": {
+        "notifications": true
+    },
+    "TODO_update_path_url": "http://localapp.orionadvisor.com/extensions/circuit/"
+}

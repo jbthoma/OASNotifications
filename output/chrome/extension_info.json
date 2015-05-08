@@ -1,0 +1,25 @@
+{
+    "content_scripts": [], 
+    "browser_button": {
+        "tooltipText": "Circuit", 
+        "popup": {
+            "url": "popup-shell.html", 
+            "width": 320, 
+            "height": 450
+        }, 
+        "icon": "icons/button-gray.png"
+    }, 
+    "description": "Centralized hub for receiving notifications from Orion Advisor Services and it's integration partners", 
+    "creator": "Orion Advisor Services", 
+    "framework_version": "1.7.6 e5b39c50d196", 
+    "background_scripts": [
+        "lib/js/firebase.js", 
+        "main.js"
+    ], 
+    "homepage_url": "http://orionadvisor.com/", 
+    "version": "0.9.0", 
+    "framework_package_id": "dev", 
+    "TODO_update_path_url": "http://localapp.orionadvisor.com/extensions/circuit/", 
+    "id": "{9CE3E5FA-4854-4B1E-83CC-E4A3521418BE}", 
+    "name": "OAS Circuit"
+}
